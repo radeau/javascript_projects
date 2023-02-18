@@ -59,3 +59,60 @@ body {
 #new-quote-button:hover {
   background-color: #19a5aa;
 }
+
+/* Media query for screen sizes smaller than 600px */
+@media (max-width: 600px) {
+  #quote-container {
+    width: 80%;
+  }
+  
+  #quote-text {
+    font-size: 3rem;
+  }
+  
+  #quote-author {
+    font-size: 1.5rem;
+  }
+  
+  #new-quote-button {
+    font-size: 1rem;
+  }
+}
+
+/* Media query for screen sizes between 600px and 1200px */
+@media (min-width: 600px) and (max-width: 1200px) {
+  #quote-container {
+    width: 70%;
+  }
+  
+  #quote-text {
+    font-size: 4rem;
+  }
+  
+  #quote-author {
+    font-size: 1.8rem;
+  }
+  
+  #new-quote-button {
+    font-size: 1.2rem;
+  }
+}
+
+/* Media query for screen sizes larger than 1200px */
+@media (min-width: 1200px) {
+  #quote-container {
+    width: 50%;
+  }
+  
+  #quote-text {
+    font-size: 5rem;
+  }
+  
+  #quote-author {
+    font-size: 2rem;
+  }
+  
+  #new-quote-button {
+    font-size: 1.4rem;
+  }
+}
