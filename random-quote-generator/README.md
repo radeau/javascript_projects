@@ -2,6 +2,10 @@
 
 This project is a simple web application that generates random quotes using JavaScript. It displays a new quote every time a user clicks a "New Quote" button. The quotes are chosen randomly from an **array of quote objects** that contain a quote text and author.
 
+## Live Demo
+
+- Check the live demo [here](https://radeau.github.io/javascript_projects/random-quote-generator/random.html)
+
 ## Project Files
 
 The project consists of this readme file and the following:
