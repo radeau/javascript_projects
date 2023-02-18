@@ -48,7 +48,7 @@ const quotes = [
     // Display the quote on the web page
     const quoteTextElement = document.getElementById("quote-text");
     const quoteAuthorElement = document.getElementById("quote-author");
-    quoteTextElement.textContent = quote.text;
+    quoteTextElement.textContent = `"${quote.text}"`;
     quoteAuthorElement.textContent = `- ${quote.author}`;
   }
   
@@ -57,7 +57,4 @@ const quotes = [
   
   // Display a random quote on page load
   generateQuote();
-    
-
-
   
