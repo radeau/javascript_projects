@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 body {
-  background-color: rgb(122, 71, 71);
+  background-color: rgb(47, 160, 122);
   font-family: 'Indie Flower', cursive;
   text-align: center;
   display: flex;
@@ -57,7 +57,7 @@ body {
 }
 
 #new-quote-button:hover {
-  background-color: #19a5aa;
+  background-color: #a2a368;
 }
 
 /* Media query for screen sizes smaller than 600px */
