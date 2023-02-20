@@ -2,7 +2,7 @@
 ## Table of Contents
 
 -   [Random Quote Generator](https://radeau.github.io/javascript_projects/random-quote-generator/random.html)
--   [Project 2 soon...]()
+-   [Random Quote Generator using API](https://radeau.github.io/javascript_projects/random-quote-generator-using-API/random.html)
 
 ### Random Quote Generator
 
