@@ -19,11 +19,16 @@ document.addEventListener("DOMContentLoaded", function() {
     // Display the question of the current card on the front of the card.
     const frontText = document.querySelector(".front p");
     frontText.textContent = flashCards[currentCardIndex].question;
+
+    // Display the answer of the current card on the back of the card.
+    const backText = document.querySelector(".back p");
+    backText.textContent = flashCards[currentCardIndex].answer;
   
     // When the user clicks on the card, flip it to show the answer on the back.
     const card = document.querySelector(".card");
     card.addEventListener("click", () => {
       card.classList.toggle("flipped");
+      backText.textContent = flashCards[currentCardIndex].answer;
     });
   
     // When the user clicks on the "next" button, increment the current card index and display the next question.
